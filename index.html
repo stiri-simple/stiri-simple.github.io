@@ -143,7 +143,7 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="back-button" aria-label="Înapoi la pagina principală">
+    <a href="../index.html" class="back-button" id="backButton" style="display: none;" aria-label="Înapoi la pagina principală">
         ← Înapoi la Portal
     </a>
     
@@ -330,5 +330,16 @@
             </a>
         </article>
         
+
+    <script>
+        // Show back button only if coming from portal
+        const urlParams = new URLSearchParams(window.location.search);
+        const portalUrl = urlParams.get('portal');
+        if (portalUrl) {
+            const backButton = document.getElementById('backButton');
+            backButton.style.display = 'block';
+            backButton.href = portalUrl;
+        }
+    </script>
 </body>
 </html>
