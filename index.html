@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Zeeguu Știri - Română A2</title>
+    <title>Știri Simple - Română A2</title>
     <style>
         * {
             margin: 0;
@@ -22,7 +22,7 @@
         }
         
         .back-button {
-            display: none; /* Hidden by default, shown via JavaScript */
+            display: block;
             width: 100%;
             max-width: 300px;
             margin: 0 auto 30px auto;
@@ -143,28 +143,192 @@
     </style>
 </head>
 <body>
-    <a href="#" class="back-button" id="backButton" aria-label="Înapoi la portal">
+    <a href="../index.html" class="back-button" aria-label="Înapoi la pagina principală">
         ← Înapoi la Portal
     </a>
     
-    <h1>Zeeguu Știri</h1>
+    <h1>Știri Simple</h1>
     
-    <div class="no-news">
-        Generarea conținutului în curs... 
-        <br><br>
-        Paginile vor fi actualizate automat cu articolele zilei.
-    </div>
-
-    <script>
-        // Check URL parameter for back button
-        const urlParams = new URLSearchParams(window.location.search);
-        const portalUrl = urlParams.get('portal');
+    
+        <article class="news-item">
+            <a href="article_3161526.html" class="news-link">
+                <img src="https://culturaromana.ro/wp-content/uploads/2023/04/digital-signature-1024x1024.jpg" alt="" loading="lazy">
+                <h2>Patrick Matiș – Imperiile mor, dar iubirea rămâne</h2>
+                <p class="summary">Patrick Matiș vorbește despre cum imperiile corupte cad. El spune că iubirea și solidaritatea sunt puternice. Poporul trebuie să lupte împreună pentru a schimba societatea.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
         
-        if (portalUrl) {
-            const backButton = document.getElementById('backButton');
-            backButton.style.display = 'block';
-            backButton.href = portalUrl;
-        }
-    </script>
+        <article class="news-item">
+            <a href="article_3161090.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-2/212d6780-1e98-40c7-8cc1-88faa6a1b050/index.png?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Accident grav în Bihor. Două persoane sunt în stare gravă după coliziunea a două mașini</h2>
+                <p class="summary">Șase persoane au fost într-un accident grav pe DN 76 în Bihor. Două persoane sunt în stare foarte gravă după coliziune. Echipajele medicale și de salvare lucrează la locul accidentului.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160836.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-6/65f11a78-6450-434b-8fd3-4073115cc397/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Dr. Cristina Bântu, medic ORL: „Cea mai frumoasă parte a meseriei mele este în sala de operație”</h2>
+                <p class="summary">Dr. Cristina Bântu este medic ORL și îi place să lucreze cu pacienți, mai ales cu copii. Ea a învățat metode noi și combate ideile greșite despre ORL. Ea găsește echilibru între muncă și familie.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3161350.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-7/7f6e59bb-7536-41cf-995e-5850c42817ea/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26c%3D0%252C0.114%252C1%252C0.884%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Un tânăr a creat o mică republică pe un teren liber lângă Dunăre</h2>
+                <p class="summary">Un australian a creat republica Verdis pe un teren liber. Are 400 de cetățeni și sistem de guvernare. Croația a deportat fondatorul, dar el vrea să revină.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160848.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-d/d3811b05-1ce2-4cd3-ba56-9fc990b44156/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Copil de 11 ani bătut de tatăl său. Poliția a intervenit după plângerea vecinilor</h2>
+                <p class="summary">Un tată a bătut copilul său de 11 ani, iar vecinii au chemat poliția. Bărbatul era singurul părinte și probabil beat. Copilul a fost dus la un centru de protecție, iar tatăl a fost arestat.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160604.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-f/feedf83d-2a4b-457f-bac9-8e6233b38aaa/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Netanyahu spune că armata poate elibera ostaticii din Gaza</h2>
+                <p class="summary">Israel vrea să lupte mai mult în Gaza pentru a salva ostaticii. Hamas a arătat imagini dureroase cu prizonieri. Mulți oameni protestează pentru a opri războiul.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160861.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-a/a032fadc-ece1-4d74-ba1e-2ed4ac2ae5b3/index.png?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Ucrainenii opresc atacurile rusești la Pokrovsk folosind drone și trupe rapide</h2>
+                <p class="summary">Ucrainenii au oprit atacurile rusești la Pokrovsk cu drone și trupe rapide. Rușii au folosit o armă puternică, dar a fost distrusă. Generalul Sîrski spune că rușii folosesc tactici noi, dar ucrainenii se apără bine.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3161119.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-2/2729f35b-2816-488e-ae2b-30a98bb9b446/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Nicușor Dan, un președinte diferit în Europa</h2>
+                <p class="summary">Nicușor Dan este un președinte serios și eficient. El face lucruri bune pentru oameni și nu folosește mesaje populiste. Ziarele străine îl laudă pentru acest lucru.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160608.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-8/87997954-df88-453a-9674-699397a1bfa5/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Trei tineri ruși arestați pentru filmare lângă rafinărie incendiată</h2>
+                <p class="summary">Trei tineri ruși au filmat lângă o rafinărie incendiată și au postat videoclipul. Ei au fost pedepsiți pentru că au încălcat regulile. Incendiul a fost provocat de un atac cu drone care a afectat și zona din jur.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3161384.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-5/5a558003-6d4d-466c-8b3e-6bd6d6914d1b/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Escrocul care a înșelat un actor și scuza lui ciudată</h2>
+                <p class="summary">Un escroc a încercat să ia datele actorului Radu Bucălae. Când a fost prins, a dat o scuza ciudată. Autoritățile avertizează despre astfel de apeluri false.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160617.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-4/4eed26d5-b7f3-4776-901c-987dc987b4c4/index.png?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Marea Britanie introduce primul vaccin împotriva gonoreei</h2>
+                <p class="summary">Marea Britanie a lansat primul vaccin împotriva gonoreei. El este pentru persoanele cu risc ridicat și reduce șansele de boală. Gonoreea este o infecție sexuală comună care poate fi periculoasă.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160885.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-8/8e5e6bd6-7876-4049-92c2-a8188840772f/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Premierul Bavariei cere reducerea ajutoarelor pentru refugiații ucraineni</h2>
+                <p class="summary">Markus Söder vrea să reducă ajutoarele pentru refugiații ucraineni, spunând că ar trebui să lucreze dacă pot. El critică faptul că Germania dă mai mulți bani decât alte țări. În 2024, 6,3 miliarde de euro au fost pentru refugiații ucraineni.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3161141.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-1/13827a8c-da25-4e3d-8081-87b0e32e01f3/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>George Simion spune că casele pot costa 35.000 de euro</h2>
+                <p class="summary">Liderul AUR spune că casele pot costa 35.000 de euro cu ajutorul statului. El respinge zvonurile că ar renunța la promisiune. Simion recunoaște că a greșit în prezentare, dar subiectul este acum discutat.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160632.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-e/e82ad8ff-a081-42b1-893b-7ced88eb7cd5/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Liberty Galați se reorganizează. Tribunalul a acceptat planul de restructurare</h2>
+                <p class="summary">Tribunalul a aprobat planul de restructurare al Liberty Galați. Compania va plăti datoriile și va îmbunătăți activitatea. Procesul va proteja 40.000 de locuri de muncă și va menține producția de oțel.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160636.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-b/b2596e07-2222-4cf6-a0a9-88abc8d6a64b/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Marius Pieleanu a încheiat colaborarea cu SNSPA după acuzații de abuz</h2>
+                <p class="summary">Marius Pieleanu nu mai lucrează la SNSPA după acuzații de abuz sexual, dar spune că este nevinovat. El va da în judecată pe cei care l-au acuzat. O investigație a identificat mai multe femei care spun că au fost victime ale lui Pieleanu.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3161153.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-c/cdce49da-da19-466e-bf12-3a73f8e2aa7a/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26c%3D0%252C0.322%252C1%252C0.528%26f%3Dwebp" alt="" loading="lazy">
+                <h2>O artistă povestește despre experiența ei bună la un spital de stat</h2>
+                <p class="summary">Mihaela Alexandru a avut o experiență bună la un spital de stat. Personalul a fost profesionist și nu a cerut bani. Ea vrea ca lumea să știe și despre lucruri pozitive.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160644.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-f/f2b72d03-96c2-4e6d-a222-4b3b5a1fb9c5/index.png?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Șeful Centrului de Arși de la Floreasca demis după infecția unei paciente</h2>
+                <p class="summary">Șeful Centrului de Arși a fost demis după ce o pacientă a luat o infecție în spital. Medicii au încercat să ascundă problema, ceea ce a făcut lumea să se supere. Ministrul Sănătății a spus că șeful a fost nepăsător.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160904.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-9/9de8c830-3025-4316-8df9-af80f9cde368/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Jurnaliștii din Kosovo au studiat trecutul lui Gigi Becali. Familia lui a suferit sărăcie.</h2>
+                <p class="summary">Jurnaliștii din Kosovo au studiat viața lui Gigi Becali. Familia lui a avut o viață grea cu sărăcie. Acum el este bogat datorită moștenirii de la tatăl său.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3161166.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-6/644ee1f5-a872-4c72-a386-b57c1b1f34e6/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>George Simion a învățat engleza din desene animate și filme</h2>
+                <p class="summary">George Simion a învățat engleza din televizor. A văzut desene și filme în engleză de mic. Această metodă l-a ajutat să învețe bine engleza.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
+        <article class="news-item">
+            <a href="article_3160657.html" class="news-link">
+                <img src="https://cdn.adh.reperio.news/image-1/1b3ed7ad-5c48-4ad3-a66b-83b726edb4f1/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D700%26h%3D750%26r%3Dcontain%26f%3Dwebp" alt="" loading="lazy">
+                <h2>Prognoza meteo pentru următoarele două săptămâni. Va fi caniculă</h2>
+                <p class="summary">ANM a anunțat că va fi caniculă în 9-10 august. Temperaturile vor fi între 27 și 35 de grade ziua. Vor fi ploi doar la început.</p>
+                <span class="read-more">Citește mai mult →</span>
+            </a>
+        </article>
+        
 </body>
 </html>
