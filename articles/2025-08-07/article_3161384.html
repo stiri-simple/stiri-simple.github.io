@@ -241,5 +241,16 @@ de fraudă să aibă succes.</p>
         video</p></div></div>
         </div>
     </div>
+    
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
 </body>
 </html>

@@ -332,9 +332,19 @@
         
 
     <script>
-        // Show back button only if coming from portal
+        // Show back button if coming from portal (with persistent storage)
         const urlParams = new URLSearchParams(window.location.search);
-        const portalUrl = urlParams.get('portal');
+        let portalUrl = urlParams.get('portal');
+        
+        // If portal URL is in current URL, store it in sessionStorage
+        if (portalUrl) {
+            sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+        } else {
+            // If not in URL, try to get it from sessionStorage
+            portalUrl = sessionStorage.getItem('stirisimple_portal_url');
+        }
+        
+        // Show button if we have a portal URL from either source
         if (portalUrl) {
             const backButton = document.getElementById('backButton');
             backButton.style.display = 'block';
