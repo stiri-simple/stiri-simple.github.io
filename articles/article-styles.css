@@ -9,14 +9,21 @@ body {
     font-size: 27px;
     line-height: 1.8;
     padding: 20px;
+    padding-top: 120px;
     max-width: 100%;
     background-color: #f5f5f5;
     color: #333;
 }
 
 .back-button {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
     display: block;
-    width: 100%;
+    width: 90%;
+    max-width: 700px;
     padding: 20px;
     background-color: #007AFF;
     color: white;
@@ -25,12 +32,31 @@ body {
     font-size: 30px;
     font-weight: bold;
     border-radius: 10px;
-    margin-bottom: 20px;
     border: none;
     cursor: pointer;
 }
 
 .back-button:hover {
+    background-color: #0051D5;
+}
+
+.back-button-bottom {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #007AFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button-bottom:hover {
     background-color: #0051D5;
 }
 
