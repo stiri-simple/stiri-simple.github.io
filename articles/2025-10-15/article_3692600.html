@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Toamna - Un tablou frumos</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Toamna - Un tablou frumos</h1>
+        <div class="meta">
+            15 October 2025, 06:17
+        </div>
+        <div class="content">
+            <p>A venit un pictor priceput<br />
+Cu paleta plină de culori,<br />
+Vesel și plin de vise,<br />
+Călărind un pui de leu.</p>
+
+<p>Cu pensula din flori de vin<br />
+Și cu un vânt jucăuș,<br />
+Bând cu Bachus din pelin<br />
+Ca o avans în rubin.</p>
+
+<p>Și a trecut peste ogoare,<br />
+Colorându-le în galben<br />
+Bostanii care nu au flori<br />
+Și lanurile de porumb.</p>
+
+<p>Apoi a mers prin livezi<br />
+Cu roșul mărului<br />
+Peste ramurile verzi,<br />
+Cu sărutul vântului.</p>
+
+<p>Și a intrat în păduri dese<br />
+Cu culori aduse din câmpii,<br />
+Cu dans și pas de tei,<br />
+Cu nuanțe de ruginiu.</p>
+
+<p>Toamna în sute de culori<br />
+Are gust de sate<br />
+Și miroase a fiori<br />
+Și dorințe bogate!</p>
+
+<p>Este anotimpul sosirilor<br />
+Pentru An și Țară,<br />
+Pentru noi și pentru miri,<br />
+Pentru cei care ară!</p>
+
+<p>Este vremea când măsori<br />
+Cântărind culorile<br />
+Adunate în cămări<br />
+Ca să învingi zorile!</p>
+
+<p>Este taina împlinirii<br />
+Rodului însămânțat,<br />
+Bucuria nemuririi<br />
+De la Cel Preaînalt!</p>
+
+<p>Toamna merge să se culce<br />
+Ca un bob sfințit,<br />
+Sub zăpada caldă și dulce,<br />
+Pentru răsărit,</p>
+
+<p>Pentru o nouă primăvară<br />
+Și un vis comun,<br />
+Care merge, vine iară,<br />
+Tot mereu toamna!</p>
+
+<p>Dacă v-a plăcut, sprijiniți Revista România Culturală pe Patreon!</p>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
