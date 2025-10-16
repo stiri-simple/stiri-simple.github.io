@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Vremea se răcește. Temperaturi de până la 19 grade și ninsoare la munte</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Vremea se răcește. Temperaturi de până la 19 grade și ninsoare la munte</h1>
+        <div class="meta">
+            16 October 2025, 05:11
+        </div>
+        <div class="content">
+            <p>Ziua de joi aduce o răcire ușoară în multe regiuni. În nord și centru, diminețile sunt reci și apare brumă. În sud, temperaturile sunt mai ridicate, apropiate de normal.</p>
+
+<p>Vremea va fi ușor mai rece decât de obicei pentru această perioadă. Cerul va fi variabil, cu nori și ploi slabe în unele locuri, mai ales în sud și la munte.</p>
+
+<p>La altitudini mari, va ploua și va fi lapoviță. Vântul va sufla slab până la moderat.</p>
+
+<p>Temperaturile maxime vor fi între 11 și 19 grade Celsius. Temperaturile minime vor coborî până la -4 grade în unele zone. Pe litoral, vor fi 10-12 grade noaptea.</p>
+
+<p>Dimineața și noaptea se va face ceață. În nordul și centrul țării este posibil să apară brumă.</p>
+
+<p>În București, ziua va fi frumoasă. Cerul va fi variabil cu nori. Vântul va sufla slab. Temperatura maximă va fi 16-17 grade, iar noaptea va fi între 4 și 6 grade.</p>
+
+<p>La munte, vremea va fi variabilă. Vor fi nori și ploi slabe. La înălțime, vor fi precipitații mixte: ploaie, lapoviță și ninsoare. Vântul va fi mai puternic pe creste. Dimineața și noaptea se va face ceață și brumă.</p>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
