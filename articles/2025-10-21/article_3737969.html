@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Vremea se încălzește, dar diminețile sunt reci în România</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Vremea se încălzește, dar diminețile sunt reci în România</h1>
+        <div class="meta">
+            21 October 2025, 05:11
+        </div>
+        <div class="content">
+            <p>Meteorologii anunță că marți, 21 octombrie, temperaturile vor crește puțin. Dar diminețile vor rămâne reci în cea mai mare parte a țării. Cerul va fi variabil, cu nori în Banat, Crișana și Maramureș. Acolo vor fi și ploi slabe.</p>
+
+<p>Vântul va sufla slab și moderat. În Banat vântul este mai puternic. În Moldova și la munte, vântul va fi foarte puternic, până la 50-60 km/h. Temperaturile maxime vor fi între 11 și 20 de grade. Temperaturile minime vor fi între -3 grade în estul Transilvaniei și nordul Moldovei și 12 grade la mare. Noaptea va fi ceață în sud, est și centru.</p>
+
+<p>În București, cerul va fi variabil. Dimineața și noaptea va fi frig. Vântul va sufla slab și moderat. Temperaturile vor fi 3-6 grade noaptea și 17-18 grade ziua.</p>
+
+<p>La munte, temperaturile vor crește până pe 25 octombrie. Maximele vor fi 6-12 grade, iar minimele vor urca de la -6...-4 grade la 4-6 grade.</p>
+
+<p>După această perioadă, temperaturile vor scădea. Ziua vor fi 4-6 grade, iar noaptea -2-0 grade. Vor fi ploi slabe și puține, dar mai probabil între 25 și 30 octombrie.</p>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
