@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Vremea următoare: temperaturi mai mici și ploi în toată țara</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Vremea următoare: temperaturi mai mici și ploi în toată țara</h1>
+        <div class="meta">
+            21 October 2025, 11:11
+        </div>
+        <div class="content">
+            <p>Săptămâna viitoare va avea temperaturi mai mici decât de obicei. Va ploua mult în toată țara. Meteorologii au făcut o prognoză pentru prima jumătate a lunii noiembrie.</p>
+
+<p>Valorile pentru temperatură vor fi aproape de cele normale pentru această săptămână. În unele regiuni din interiorul țării va fi posibil mai frig.</p>
+
+<ul>
+<li><p>Va ploua mult în regiunile din vest și sud-vest. În restul țării va ploua mai puțin.</p></li>
+<li><p>Temperaturile medii vor fi mai mici decât normale pentru această perioadă în toată țara.</p></li>
+<li><p>Va ploua mult în toată țara.</p></li>
+<li><p>Temperatura medie a aerului va fi normală pentru această perioadă în toate regiunile.</p></li>
+<li><p>Va ploua puțin în sudul și centrul țării. În alte locuri va ploua normal.</p></li>
+<li><p>Temperaturile medii vor fi normale pentru această săptămână în toate regiunile țării.</p></li>
+<li><p>Cantitatea de ploaie va fi mai mică în nord-estul țării. În alte locuri va ploua normal.</p></li>
+</ul>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
