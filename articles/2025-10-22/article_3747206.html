@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Concert vienez la Ateneul Român</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Concert vienez la Ateneul Român</h1>
+        <div class="meta">
+            22 October 2025, 00:01
+        </div>
+        <div class="content">
+            <p>La Ateneul Român, publicul a fost la un concert special. Concertul s-a numit „La Curtea Imperială”. Dirijorul a fost Tiberiu Dragoș Oprea. Soliștii au fost tenorul Ștefan von Korch și soprana Oana Maria Șerban. A cântat și prestigioasa Orchestră a Filarmonicii George Enescu.</p>
+
+<p>Concertul a avut două semnificații importante. A fost pentru Ziua Națională a Austriei. A fost și pentru 200 de ani de la nașterea lui Johan Strauss. Muzica a fost din Viena și din Europa. Programul a fost vesel, elegant și plin de culoare.</p>
+
+<p>Orchestra a început cu piesa „Liliacul” de Johann Strauss II. Muzica a fost festivă și rafinată. Dirijorul Tiberiu Dragoș Oprea a condus cu mână sigură și plăcere. Cei doi soliști, Oana Șerban și Ștefan von Korch, au avut voce foarte bună. Ei au fost foarte carismatici pe scenă.</p>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
