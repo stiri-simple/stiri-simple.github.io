@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Prognoza meteo pentru următoarele patru săptămâni</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Prognoza meteo pentru următoarele patru săptămâni</h1>
+        <div class="meta">
+            14 November 2025, 12:11
+        </div>
+        <div class="content">
+            <p>Meteorologii estimează că temperaturile vor rămâne mai ridicate decât cele normale pentru această perioadă, până la începutul lunii decembrie. După aceea, temperaturile vor fi apropiate de cele normale pentru acest moment al anului.</p>
+
+<p>Prognoza pentru patru săptămâni este realizată de Centrul European pentru Prognoze pe Medie Durată. Aceasta arată media săptămânală a abaterilor temperaturii și a cantităților de precipitații față de media perioadei 2005-2024. Fenomenele extreme care durează puțin nu pot fi prognozate cu acest produs.</p>
+
+<p>Temperaturile vor fi mai ridicate decât cele normale în această săptămână, în toată România. Abaterea termică pozitivă va fi mai mare în regiunile din sud-est.</p>
+
+<p>Regimul de ploaie va fi excedentar în jumătatea vestică a țării. În restul țării, va fi apropiat de cel normal pentru acest interval.</p>
+
+<p>Temperaturile medii vor fi ușor mai ridicate decât normalele pentru această perioadă în toată țara. Va fi mai cald mai ales în regiunile din sud-est.</p>
+
+<p>Cantitățile de precipitații vor fi excedentare în regiunile nordice și centrale. În alte zone, vor fi apropiate de cele normale.</p>
+
+<p>Temperatura medie a aerului va avea valori apropiate de cele normale în toate regiunile.</p>
+
+<p>Regimul de ploaie va fi ușor deficitar în vest și nord-vest. În rest, va fi apropiat de cel normal.</p>
+
+<p>Temperaturile medii vor fi apropiate de cele normale în toată România.</p>
+
+<p>Cantitățile de precipitații vor fi apropiate de cele normale în toată țara.</p>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
