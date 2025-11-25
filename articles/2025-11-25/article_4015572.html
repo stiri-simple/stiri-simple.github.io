@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Istoria Casei Cesianu din București</title>
+    <link rel="stylesheet" href="../article-styles.css">
+</head>
+<body>
+    <button onclick="history.back()" class="back-button">← Înapoi la știri</button>
+    
+    <div class="article-container">
+        <h1>Istoria Casei Cesianu din București</h1>
+        <div class="meta">
+            24 November 2025, 12:35
+        </div>
+        <div class="content">
+            <p>Casa Cesianu este o clădire istorică din București, pe strada C. A. Rosetti. În trecut, strada se numea Clemenței. Planurile vechi ale orașului arată această stradă cu numele Clemenței.</p>
+
+<p>Terenul a aparținut inițial Marghioalei Procopoaia. Ea a vândut jumătate din teren în 1886 pentru 12.000 lei. După doi ani, întregul teren a fost cumpărat de Nicolae Cesianu pentru 44.000 lei.</p>
+
+<p>Nicolae Cesianu a primit autorizația de construcție în 1892. Casa a fost construită după planurile arhitectului J. Berthet. Clădirea este în stil eclectic, cu parter și etaj.</p>
+
+<p>La parter funcționau prăvălii, inclusiv reprezentanța firmei Telefunken. La etaj a fost pentru o vreme un club al evreilor. Astăzi în clădire este un magazin alimentar.</p>
+
+<p>Casa are o arhitectură frumoasă. Scară centrală duce la etaj. Acolo sunt camere de primire: birou și două saloane. Pe pereți sunt picturi în ulei care arată scene de picnic și dans.</p>
+
+<p>Nicolae Cesianu era deputat și venea dintr-o familie cunoscută. S-a căsătorit cu Maria Dimitrie Florescu. Au avut două fiice: Margareta și Alexandrina.</p>
+
+<p>Clădirea a avut mulți utilizatori de-a lungul timpului. În 1909, a fost sediul Automobil Clubului Român. Apoi a fost cercul cultural "Libertatea" al evreilor. În 1941, a fost sediul italienilor.</p>
+
+<p>După 1948, casa a fost naționalizată. A devenit sediul asociației ARLUS (prietenie cu URSS). Mai târziu a găzduit un magazin alimentar.</p>
+
+        </div>
+    </div>
+
+    <button onclick="history.back()" class="back-button-bottom">← Înapoi la știri</button>
+
+    <script>
+        // Preserve portal URL from referrer if available
+        if (document.referrer) {
+            const referrerUrl = new URL(document.referrer);
+            const portalUrl = referrerUrl.searchParams.get('portal');
+            if (portalUrl) {
+                sessionStorage.setItem('stirisimple_portal_url', portalUrl);
+            }
+        }
+    </script>
+</body>
+</html>
